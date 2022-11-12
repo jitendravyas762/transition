@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 130px;
+    width:130px;
+    background-color: #8a2be2;
+    border-radius: 20px;
+    transition: all 1s ease;
+    margin:2rem;
+}
+.box:hover{
+    transform: rotate(360deg);
+    border-radius: 50% 50%;
+    width:260px;
+    height: 260px;
+}
